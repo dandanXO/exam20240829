@@ -21,5 +21,5 @@ export default defineConfig({
       '@': resolve(__dirname, './src')
     }
   },
-  base: '/', // 確保 base 路徑設為根目錄
+  base: '/exam20240829', 
 })
