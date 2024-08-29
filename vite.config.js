@@ -12,10 +12,11 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
-  base: '/', // 確保 base 路徑設為根目錄
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  base: '/', // 確保 base 路徑設為根目錄
 })
