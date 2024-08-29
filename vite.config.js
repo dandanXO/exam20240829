@@ -21,5 +21,5 @@ export default defineConfig({
       '@': resolve(__dirname, './src')
     }
   },
-  base: '/exam20240829', 
+  base: '/', 
 })
